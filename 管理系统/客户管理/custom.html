@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>客户流失管理</title>
+    <!--让bootstrap兼容最新版本的IE-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!--以移动设备优先  视窗                  宽度=设备宽度         缩放=1            最大缩放=1          禁止用户缩放-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/order.css">
+</head>
+<body>
+<div class="col-sm-12">
+    <div class="main">
+        <div>
+            <h3>客户流失管理</h3>
+            <p class="text-right">
+                <a href="" class="btn btn-primary">帮助</a>
+                <a href="" class="btn btn-primary">查询</a>
+            </p>
+        </div>
+        <div class="col-sm-4 pull-left input-group add">
+                                <span class="input-group-addon">
+                                    <a href="">客户</a>
+                                </span>
+            <input type="text" class="form-control"/>
+        </div>
+        <div class="col-sm-4 pull-left input-group add">
+                                <span class="input-group-addon">
+                                    <a href="">客户经理</a>
+                                </span>
+            <input type="text" class="form-control"/>
+        </div>
+        <div class="col-sm-4 pull-left input-group add">
+                                <span class="input-group-addon">
+                                    <a href="">状态</a>
+                                </span>
+            <input type="text" class="form-control"/>
+        </div>
+                         <div class="col-sm-12 mt20"></div>
+        <table class="table table-responsive table-bordered table-hover table-striped">
+            <tr class="">
+                <th>编号</th>
+                <th>客户</th>
+                <th>客户经理</th>
+                <th>上次下单时间</th>
+                <th>确认流失时间</th>
+                <th>状态</th>
+                <th>操作</th>
+            </tr>
+            <tr class="">
+                <td>1</td>
+                <td>阳光实业</td>
+                <td>球球</td>
+                <td>2005年12月07日</td>
+                <td></td>
+                <td>暂缓流失</td>
+                <td>
+                    <a href=""><img src="img/fuhao_03.jpg" alt=""/></a>
+                    <a href=""><img src="img/fuhao_06.jpg" alt=""/></a>
+                </td>
+            </tr>
+        </table>
+
+        <div class="col-xs-12">
+            <ul class="pager">
+                <li>共59条记录</li>
+                <li class="hidden-xs tiaoshu">
+                    <label>每页<input type="text" value="10"/>条</label>
+                    <label>第<input type="text" value="1"/>页/共5页</label>
+                </li>
+                <li class="tiaoshu hidden-xs"><a href="">第一页</a></li>
+                <li class="previous"><a href="">上一页</a></li>
+                <li class="tiaoshu"><a href="">下一页</a></li>
+                <li class="tiaoshu hidden-xs"><a href="">最后一页</a></li>
+                <li><label>转到<input type="text" value="1"/>页</label></li>
+                <li><input type="button" value="GO"/></li>
+            </ul>
+        </div>
+        </div>
+    </div>
+
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+        new WOW().init();
+    }
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+        $('[data-toggle="popover"]').popover();
+        $('#banner').carousel({
+            interval : 2000
+        })
+    })
+
+</script>
+</body>
+</html>

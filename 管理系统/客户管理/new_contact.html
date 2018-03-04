@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>新建联系人</title>
+    <!--让bootstrap兼容最新版本的IE-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!--以移动设备优先  视窗                  宽度=设备宽度         缩放=1            最大缩放=1          禁止用户缩放-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/common.css">
+
+</head>
+<body>
+            <div class="col-sm-12">
+              <div class="main">
+                  <div>
+                      <h3>客户信息管理 > 客户信息 > 联系人 > 新建联系人</h3>
+                      <p class="text-right">
+                          <a href="" class="btn btn-primary">帮助</a>
+                          <a href="contact.html" class="btn btn-primary">返回</a>
+                          <a href="" class="btn btn-primary">保存</a>
+                      </p>
+                  </div>
+                  <div class="container-fluid">
+                      <div class="row">
+                          <div class="col-sm-6">
+                              <div class="assign_text clearfix">
+                                  <span>姓名</span>
+                                  <span><input type="text" value=""><i class="fa fa-asterisk"></i></span>
+                              </div>
+                          </div>
+                          <div class="col-sm-6">
+                              <div class="assign_text clearfix">
+                                  <span>性别</span>
+                                  <span class="hhh"><input type="radio"> 男 &nbsp;<input type="radio"> 女</span>
+                              </div>
+                          </div>
+                          <div class="col-sm-6">
+                              <div class="assign_text clearfix">
+                                  <span>职位</span>
+                                  <span><input  type="text"  value=""><i class="fa fa-asterisk"></i></span>
+                              </div>
+                          </div>
+                          <div class="col-sm-6">
+                              <div class="assign_text clearfix">
+                                  <span>办公电话</span>
+                                  <span><input  type="text" value=""><i class="fa fa-asterisk"></i></span>
+                              </div>
+                          </div>
+                          <div class="col-sm-6">
+                              <div class="assign_text clearfix">
+                                  <span>手机</span>
+                                  <span><input  type="text" value=""><i class="fa fa-asterisk"></i></span>
+                              </div>
+                          </div>
+                          <div class="col-sm-6">
+                              <div class="assign_text clearfix">
+                                  <span>备注</span>
+                                  <span></span>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+        new WOW().init();
+    }
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip();
+        $('[data-toggle="popover"]').popover();
+        $('#banner').carousel({
+            interval : 2000
+        })
+    })
+
+</script>
+</body>
+</html>

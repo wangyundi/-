@@ -1,0 +1,29 @@
+
+/*a.btn{*/
+/*background: linear-gradient(0deg,#0066CB,#6EC2FE);*/
+/*}*/
+.pager .previous > a,.pager .next > a{
+    float: none;
+    text-decoration: solid;
+}
+.pager li > a{
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+.pager label{
+    display: inline;
+    font-weight: 100;
+}
+.pager label input{
+    text-align: center;
+    width: 4.4%;
+}
+.go{
+    width: 21px;
+    height: 21px;
+    display: inline-block;
+    background: #d3d0c7;
+    border: 1px solid black;
+}

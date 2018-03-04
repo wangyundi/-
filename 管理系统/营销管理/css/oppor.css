@@ -1,0 +1,100 @@
+@charset "UTF-8";
+.main>p{
+    margin-bottom: 4px;
+}
+
+.input-group-addon,.form-control{
+    border-radius: 0;
+}
+.input-group-addon,.input-group-addon a{
+    background: #6ec2fd;
+    color: #000;
+}
+.table{
+    margin: 20px 0 0;
+}
+.table-striped > tbody > tr:first-of-type{
+    background: #428BCA;
+}
+.table-striped > tbody > tr,.table > tbody > tr.warning > td{
+    background: #EEEEFF;
+}
+.table-hover > tbody > tr.warning:hover > td{
+    background: #EEEEFF;
+}
+.table-striped > tbody > tr:first-of-type >th{
+    border: 0;
+}
+.ico_ren{
+    display: inline-block;
+    background: url("../../images/ren_03.jpg");
+    width: 16px;
+    height: 16px;
+}
+.ico_bi{
+    display: inline-block;
+    background: url("../../images/mark_03.jpg");
+    width: 17px;
+    height: 16px;
+}
+.ico_close{
+    display: inline-block;
+    background: url("../../images/mark_05.jpg");
+    width: 17px;
+    height: 16px;
+}
+.main .col-xs-12{
+    padding: 0;
+}
+.paging{
+    border: 1px solid #0066cc;
+    margin-top: 4px;
+    text-align: center;
+}
+.paging .pager{
+    display: inline-block;
+}
+.paging .pager li{
+    float: left;
+}
+.paging .pager li input{
+    max-width: 40px;
+}
+.paging .pager{
+    margin: 4px auto;
+}
+.paging .pager p{
+    color: #01018c;
+}
+.pager li > a{
+    padding: 4px 6px;
+}
+.pager .btn-primary{
+    background-color: #428bca;
+}
+
+.pager .btn-primary:hover{
+    color: red;
+}
+@media (max-width: 768px) {
+    .content .col-sm-3{
+        height: 100%;
+        border-right: 0;
+        border-bottom: 1px solid #666;
+    }
+    .main .col-sm-4{
+        width: 100%;
+    }
+    .input-group-addon{
+        width: 50%;
+    }
+    .input-group-addon input{
+        width: 50%;
+    }
+    .paging .pager .pullleft{
+        float: left;
+    }
+    .paging .pager .pullright{
+        float: right;
+    }
+}

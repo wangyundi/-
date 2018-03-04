@@ -1,0 +1,75 @@
+@charset "UTF-8";
+.col-sm-12,.col-sm-6,.col-sm-4,.col-sm-8{
+    padding: 0;
+    border-top: 1px solid #A1A1A5;
+}
+.main .col-sm-6 .assign_text span{
+    display: block;
+    float: left;
+    width: 50%;
+    height: 34px;
+    padding: 6px 6px;
+}
+.main .assign_text span:first-of-type{
+    background: #6ec2fd;
+    text-align: center;
+}
+.main .col-sm-12 .assign_text span{
+    display: block;
+    float: left;
+    padding: 6px 6px;
+}
+.main .col-sm-12 .assign_text span:first-of-type{
+    background: #6ec2fd;
+    text-align: center;
+    width: 25%;
+}
+.main .col-sm-6 .assign_text span:last-of-type{
+    background: #EEEEFF;
+    height: 34px;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow: hidden;
+}
+.main .col-sm-12 .assign_text span:last-of-type{
+    background: #EEEEFF;
+    width: 75%;
+}
+.main .col-sm-9{
+    background: none !important;
+}
+.mt20{
+    margin-top: 20px;
+}
+
+.main.col-sm-6 .assign_text input,.main .col-sm-12 .assign_text input{
+    width: 80%;
+    height: 90%;
+}
+.main .col-xs-12 .col-sm-6 .assign_text input{
+    width: 80%;
+    height: 90%;
+}
+.main .col-xs-12{
+    padding: 0;
+}
+.main .col-xs-12 .col-sm-6 .assign_text .fa{
+    color: red;
+}
+.main .col-sm-3{
+    height: 490px;
+    border-right: 1px solid #666;
+}
+@media (max-width: 768px) {
+    .main .col-sm-6 .assign_text span,.main .col-sm-12 .assign_text span{
+        display: block;
+        float: left;
+        width: 50% !important;
+        padding: 6px 6px;
+    }
+    .main .col-sm-3{
+        height: 100%;
+        border-right: 0;
+        border-bottom: 1px solid #666;
+    }
+}

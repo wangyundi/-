@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*content start*/
+.main select{
+    width: 100px;
+}
+.main textarea{
+    height: 100px!important;
+}
+.main input{
+    height: 90%;
+}
+@media (max-width: 768px) {
+    .main .col-sm-6 .assign_text span {
+        display: block;
+        float: left;
+        width: 25%;
+        height: 34px;
+        padding: 6px 6px;
+    }
+}
+/*content end*/

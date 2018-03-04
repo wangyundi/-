@@ -1,0 +1,26 @@
+#form table:first-of-type tr td:nth-of-type(odd){
+    background-color: #6ec2fd;
+    text-align: center;
+    width: 15%;
+}
+
+#form table:first-of-type tr td:nth-of-type(even){
+    background-color: #eeeeff;
+    text-align: left;
+    width: 35%;
+}
+
+#form table:last-of-type tr:first-of-type{
+    background-color: #0066cc;
+
+}
+#form tr td span{
+    color: red;
+    padding-left: 10px;
+}
+a.btn{
+    background: linear-gradient(0deg,#0066CB,#6EC2FE);
+}
+table tr:last-of-type td{
+   vertical-align: middle;
+}

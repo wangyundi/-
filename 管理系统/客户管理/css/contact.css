@@ -1,0 +1,15 @@
+
+ table tr td,table tr th{
+    text-align: center;
+}
+
+table:not(.tr_first),.table-striped > tbody > tr:nth-child(odd){
+    background-color: #efeeff;
+}
+ .table-striped > tbody > tr:first-of-type {
+     background: #428BCA;
+     color: white;
+ }
+.textarea{
+    margin: 40px auto;
+ }

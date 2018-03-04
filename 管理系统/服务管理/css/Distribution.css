@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/*-----------------------content start--------------------------*/
+.main .col-sm-4 .assign_text span:first-of-type{
+    display: block;
+    float: left;
+    width: 40%;
+    height: 34px;
+    padding: 6px 6px;
+}
+.main .col-sm-4 .assign_text span:last-of-type{
+    display: block;
+    float: left;
+    width: 60%;
+    height: 34px;
+    padding: 6px 6px;
+    background: #F5F5F5;
+}
+.main .col-sm-4 .assign_text span:last-of-type input{
+    height: 90%;
+}
+.main .col-sm-8 .assign_text span:first-of-type{
+    display: block;
+    float: left;
+    width: 20%;
+    height: 34px;
+    padding: 6px 6px;
+}
+.main .col-sm-8 .assign_text span:last-of-type{
+    display: block;
+    width: 80%;
+    height: 34px;
+    padding: 6px;
+    float: left;
+    background: #F5F5F5;
+}
+.main .col-sm-8 .assign_text span:nth-of-type(2) input{
+    width: 40%;
+    height: 90%;
+}
+.main .col-sm-8,.main .status{
+    border-bottom: 1px solid #A1A1A5;
+}
+/*content_bottom*/
+form table tr td:nth-of-type(odd){
+    background: #6ec2fd;
+    text-align: center;
+}
+form table tr td {
+    max-width: 66px!important;
+}
+.content_bottom table th{
+    background: #3071A9;
+    color: #fff;
+}
+.content_bottom table td span{
+    color: #f00;
+    font-weight: bolder;
+}
+@media (max-width: 768px) {
+    #feedback{
+        line-height: 30px;
+    }
+    .main .col-sm-8 .assign_text span:first-of-type{
+        width: 40%;
+    }
+    .main .col-sm-8 .assign_text span:last-of-type{
+        width: 60%;
+    }
+    .content_bottom{
+        margin-top: 50px!important;
+    }
+}
+/*-----------------------content end----------------------------*/

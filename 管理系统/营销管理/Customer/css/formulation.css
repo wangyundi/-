@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.main .col-xs-12 .formulation{
+    margin-top: 10px;
+    background: #EEEEFF;
+}
+.main .col-xs-12 .formulation li p{
+    float: left;
+}
+.main .col-xs-12 .formulation li{
+    border-bottom: 1px solid #88888D;
+    margin: 0;
+}
+.main .col-xs-12 .formulation li:first-of-type{
+    background: #428BCA;
+    width: 100%;
+}
+.main .col-xs-12 .formulation li p:first-of-type{
+    width: 30%;
+    padding: 4px 0;
+}
+.main .col-xs-12 .formulation li:first-of-type p:last-of-type{
+    text-align: center;
+}
+.main .col-xs-12 .formulation li p:last-of-type{
+    width: 70%;
+    padding: 0 10px;
+    border-left: 1px solid #fff;
+    text-align: left;
+}
+.main .col-xs-12 .formulation li:first-of-type p:last-of-type{
+    border-left: 0;
+}
+.main .col-xs-12 .formulation li p a{
+    padding: 1px 6px;
+}
+.main .col-xs-12 .formulation li p:last-of-type input{
+    width: 60%;
+}
+.col-xs-12 > a{
+    padding: 1px 6px;
+}

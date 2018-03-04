@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <!--让bootstrap兼容最新版本的IE-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <!--以移动设备优先  视窗                  宽度=设备宽度         缩放=1            最大缩放=1          禁止用户缩放-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <title>客户关系管理系统</title>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/public.css"/>
+</head>
+<body>
+<header class="header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4 col-sm-3">
+                <div class="logo">
+                    <img src="images/logo_03.jpg" alt=""/>
+                </div>
+            </div>
+            <div class="pull-right col-xs-8 col-sm-3">
+                <div class="current_user">
+                    <p>
+                        当前用户:
+                        <span>小刘</span>
+                        （系统管理员）
+                    </p>
+                    <p class="text-right">
+                        <a href="Login/login.html">退出系统</a>
+                    </p>
+
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <div class="title text-center">
+                    <h2>客户关系管理系统</h2>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</header>
+<div class="content">
+    <div class="container-fluid">
+        <div class="row connectrow">
+            <div class="col-sm-3 hidden-xs" style="border-right: 1px solid #666666;min-height: 300px;">
+                <div class="jiantou">
+
+                </div>
+                   <div class="sideNav">
+                       <ul class="panel">
+                           <li class="menu1">
+                               <p>
+                                   <a href="#sece1" class="btn btn-primary clickBtn" data-toggle="collapse" >客户关系管理系统
+                                    <span class="pull-right angle">
+                                        <i class="fa fa-angle-right disp"></i>
+                                        <i class="fa fa-angle-down"></i>
+                                    </span>
+                                   </a>
+                               </p>
+                           </li>
+                           <li class="collapse panel-collapse" id="sece1">
+                               <ul class="panel-group" id="content">
+                                   <li class="panel">
+                                       <div class="panel-heading">
+                                           <a href="#sece2" class="btn btn-success clickBtn" data-toggle="collapse" data-parent="#content">营销管理
+                                            <span class="pull-right angle">
+                                                <i class="fa fa-angle-right disp"></i>
+                                                <i class="fa fa-angle-down"></i>
+                                             </span>
+                                           </a>
+                                       </div>
+                                       <ul class="collapse panel-collapse" id="sece2">
+                                           <li class="panel-body">
+                                               <p>
+                                                   <a href="营销管理/Opportunity.html" target="ifm">销售机会管理</a>
+                                               </p>
+                                               <p>
+                                                   <a href="营销管理/Customer/formulation.html" target="ifm">客户开发计划</a>
+                                               </p>
+                                           </li>
+                                       </ul>
+                                   </li>
+                                   <li class="panel">
+                                       <div class="panel-heading">
+                                           <a href="#sece3" class="btn btn-success clickBtn" data-toggle="collapse" data-parent="#content">客户管理
+                                            <span class="pull-right angle">
+                                                <i class="fa fa-angle-right disp"></i>
+                                                <i class="fa fa-angle-down"></i>
+                                             </span>
+                                           </a>
+                                       </div>
+                                       <ul class="collapse panel-collapse" id="sece3">
+                                           <li class="panel-body">
+                                               <p>
+                                                   <a href="客户管理/message.html" target="ifm">客户信息管理</a>
+                                               </p>
+                                               <p>
+                                                   <a href="客户管理/custom.html" target="ifm">客户流失管理</a>
+                                               </p>
+                                           </li>
+                                       </ul>
+                                   </li>
+                                   <li class="panel">
+                                       <div class="panel-heading">
+                                           <a href="#sece4" class="btn btn-success clickBtn" data-toggle="collapse" data-parent="#content">服务管理
+                                            <span class="pull-right angle">
+                                                <i class="fa fa-angle-right disp"></i>
+                                                <i class="fa fa-angle-down"></i>
+                                            </span>
+                                           </a>
+                                       </div>
+                                       <ul class="collapse panel-collapse" id="sece4">
+                                           <li class="panel-body">
+                                               <p>
+                                                   <a href="服务管理/Construct.html" target="ifm">服务创建</a>
+                                               </p>
+                                               <p>
+                                                   <a href="服务管理/Distribution.html" target="ifm">服务分配</a>
+                                               </p>
+                                               <p>
+                                                   <a href="服务管理/Solve.html" target="ifm">服务处理</a>
+                                               </p>
+                                               <p>
+                                                   <a href="服务管理/feedback.html" target="ifm">服务反馈</a>
+                                               </p>
+                                               <p>
+                                                   <a href="服务管理/filing.html" target="ifm">服务归档</a>
+                                               </p>
+                                           </li>
+                                       </ul>
+                                   </li>
+                                   <li class="panel">
+                                       <div class="panel-heading">
+                                           <a href="#sece5" class="btn btn-success clickBtn" data-toggle="collapse" data-parent="#content">统计报表
+                                            <span class="pull-right angle">
+                                                <i class="fa fa-angle-right disp"></i>
+                                                <i class="fa fa-angle-down"></i>
+                                            </span>
+                                           </a>
+                                       </div>
+                                       <ul class="collapse panel-collapse" id="sece5">
+                                           <li class="panel-body">
+                                               <p>
+                                                   <a href="统计报表/Tj-analysis.html" target="ifm">客户资料贡献分析</a>
+                                               </p>
+                                               <p>
+                                                   <a href="统计报表/Tj-constituyen.html" target="ifm">客户构成分析</a>
+                                               </p>
+                                               <p>
+                                                   <a href="统计报表/Tj-service.html" target="ifm">客户服务分析</a>
+                                               </p>
+                                               <p>
+                                                   <a href="统计报表/Tj-lose.html" target="ifm">客户流失分析</a>
+                                               </p>
+                                           </li>
+                                       </ul>
+                                   </li>
+                                   <li class="panel">
+                                       <div class="panel-heading">
+                                           <a href="#sece6" class="btn btn-success clickBtn" data-toggle="collapse" data-parent="#content">基础数据
+                                            <span class="pull-right angle">
+                                                <i class="fa fa-angle-right disp"></i>
+                                                <i class="fa fa-angle-down"></i>
+                                            </span>
+                                           </a>
+                                       </div>
+                                       <ul class="collapse panel-collapse" id="sece6">
+                                           <li class="panel-body">
+                                               <p>
+                                                   <a href="基础数据/Jc-data.html" target="ifm">数据字典管理</a>
+                                               </p>
+                                               <p>
+                                                   <a href="基础数据/Jc-product.html" target="ifm">查询产品信息</a>
+                                               </p>
+                                               <p>
+                                                   <a href="基础数据/Jc-inventory.html" target="ifm">查询库存</a>
+                                               </p>
+                                           </li>
+                                       </ul>
+                                   </li>
+                               </ul>
+                           </li>
+
+                       </ul>
+
+                   </div>
+               </div>
+            <div class="col-sm-9 main">
+                <iframe src ="营销管理/Opportunity.html" frameborder="0" marginheight="0" marginwidth="0" frameborder="0" scrolling="no" id="ifm" name="ifm" width="100%" height="100%">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="text-right">
+    <p>景秀教育</p>
+</footer>
+<script type="text/javascript">
+
+</script>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

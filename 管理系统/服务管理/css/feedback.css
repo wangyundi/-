@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.solve{
+    margin: 10px 0!important;
+}
+#feedback{
+    line-height: 100px;
+}
+@media (max-width: 768px) {
+    #feedback{
+        line-height: 30px;
+    }
+}
+

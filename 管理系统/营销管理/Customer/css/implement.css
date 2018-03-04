@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.main .col-xs-12 .formulation li p:first-of-type{
+    width: 20%;
+    padding: 4px 0;
+}
+.main .col-xs-12 .formulation li p:nth-of-type(2){
+    width: 30%;
+    padding: 4px 10px;
+    border-left: 1px solid #fff;
+    text-align: left;
+}
+.main .col-xs-12 .formulation li p:last-of-type{
+     width: 50%;
+ }
+.main .col-xs-12 .formulation li:first-of-type p:nth-of-type(2){
+    text-align: center;
+    border-left: 0;
+}
